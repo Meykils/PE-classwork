@@ -1,0 +1,51 @@
+body {
+  font-family:  'Seidlitz_Font', sans-serif;
+  color: white;
+}
+.header {
+  background-color: #01111a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px ;
+}
+.header__logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+.header__logo-image {
+  height: 50px;
+}
+.header__logo-title {
+text-transform: uppercase;
+}
+.header__list {
+  display: flex;
+  align-items: center; 
+}
+.header__item {
+  padding: 0 5px 0 5px;
+  margin: 0 18px 0 18px;
+}
+.header__button {
+  display:flex;
+  background-color: #22a5e5;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 9px;
+  border-radius: 20px;
+  border: solid 2px cornflowerblue;
+  cursor: pointer;
+}
+.header__button:hover {
+  background-color: chartreuse;
+  font-family: 'Hangar', sans-serif;
+}
+
+.header__button-icon {
+  fill: azure;
+}
+.hero {
+height: 100vh;
+background-image: url("./image/lmfoyn.jpg");
+}

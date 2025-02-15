@@ -1,0 +1,17 @@
+body {
+color: chartreuse;
+}
+
+.header{
+  background-color:#01111a ;  
+}
+.header__logo-wrapper{
+background-color: cyan;display: flex;
+
+}
+.header__logo-image{
+  height: 50px;
+}
+.header_list {
+  display: flex;
+}

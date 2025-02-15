@@ -1,0 +1,36 @@
+body {
+  color: white;
+}
+.header {
+  background-color: #01111a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px ;
+}
+.header__logo-wrapper {
+  background-color: lightblue;
+  display: flex;
+}
+.header__logo-image {
+  height: 50px;
+}
+.header__list {
+  display: flex;
+}
+.header__item {
+  padding: 0 5px 0 5px;
+  margin: 0 18px 0 18px;
+}
+.header__button {
+  display:flex;
+  background-color: #22a5e5;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 9px;
+  border-radius: 20px;
+  border: solid 2px cornflowerblue;
+}
+.header__button-icon {
+  fill: azure;
+}
